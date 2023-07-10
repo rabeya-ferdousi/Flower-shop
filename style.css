@@ -1,0 +1,37 @@
+body{
+    font-family: 'Bacasime Antique', serif;
+}
+.h-tittle{
+    font-weight: 700;
+}
+.h-content {
+    font-size: 20px;
+}
+.h-caption{
+    color:#484545cc;
+}
+.header{
+    background-color: #E554731A ;
+    display: flex;
+    width: 1260px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.h-image{
+    width: 400px;
+}
+.h-banner{
+    padding: 20px 20px 20px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-primary {
+    border-radius: 8px;
+    background: #E30B5C;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 15px 35px;
+}
