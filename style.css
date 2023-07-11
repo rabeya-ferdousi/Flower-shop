@@ -1,5 +1,6 @@
 body{
     font-family: 'Bacasime Antique', serif;
+    background-color: whitesmoke;
 }
 .h-tittle{
     font-weight: 700;
@@ -13,10 +14,9 @@ body{
 .header{
     background-color: #E554731A ;
     display: flex;
-    width: 1260px;
-    height: 500px;
     justify-content: center;
     align-items: center;
+    height:  505px;
 }
 .h-image{
     width: 400px;
@@ -29,9 +29,214 @@ body{
 }
 .btn-primary {
     border-radius: 8px;
-    background: #E30B5C;
+    background: #E55473;
     border: 0;
     color: white;
     font-size: 20px;
     padding: 15px 35px;
+}
+.main{
+    background-color: whitesmoke;
+}
+.main-title{
+    padding-top: 20px;
+    text-align: center ;
+    font-size: 40px;
+}
+.main-description{
+    text-align: center;
+    font-size: 18px;
+}
+.flower-img{
+    padding-top: 20px;
+}
+.f-img{
+    height: 210px;
+    width: 190px;
+    padding: 30px 30px 30px 30px;
+}
+.flower-container{
+    display: flex;
+    justify-content:space-evenly;
+}
+.caption-caption{
+    display: flex;
+    justify-content: center;
+}
+.f-caption{
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.first_img{
+    border-radius: 200px 200px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.second_img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.third-img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.service{
+    padding: 100px;
+    border-radius: 10px;
+    background: whitesmoke;
+    margin: 100px 0;
+}
+.service-container{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(226, 220, 220);
+    padding: 50px;
+}
+.service_caption{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+}
+.service_img{
+    height: 50px;
+    width: 50px;
+
+}
+.deal{
+    background-color: #E554731A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1260px;
+    height: 600px; */
+}
+.deal_container{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deal_caption{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+}
+.deal-img{
+    width: 300px;
+}
+.off{
+    color:#E55473;
+}
+.deal_tittle{
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.instagram{
+    background-color: whitesmoke;
+}
+.main{
+    background:whitesmoke;
+}
+.instagram-tittle{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center
+}
+.instagram-img{
+    padding-top: 30px;
+}
+.i-img{
+    height: 210px;
+    width: 190px;
+    padding-left: 20px;
+ 
+}
+.instagram-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px 30px 30px;
+}
+.instagram-caption{
+    text-align: center;
+    padding: 0;
+    color: rgba(39, 39, 39, 0.60);
+}
+.search{
+    padding: 50px;
+    border-radius: 10px;
+    background: whitesmoke;
+    margin: 50px 0;
+    /* background-color:whitesmoke#f0efee;
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    align-items: center;
+    width: 1250px;
+    height: 500px;
+    justify-content:space-around; */
+}
+.search-container{
+    justify-content:space-around;
+    background-image: url('images/Rectangle\ 9.png');
+    background-size:1150px 400px;
+    /* background-color: rgb(226, 220, 220); */
+    padding: 50px;
+
+}
+.search_box{
+    width: 400px;
+    border: 8px solid #f4f6f6;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    color: #9DBFAF;
+}
+.s-tittle{
+    text-align: center;
+    font-size: 40px;
+}
+.s-caption{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    padding-bottom: 20px;
+}
+.search-box{
+    padding-left: 300px;
+}
+.search-btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    padding: 15px 35px;
+}
+.f-flower{
+    color:#E55473;
+}
+footer{
+    background: #000;
+}
+.footer{
+    padding: 50px 50px 50px 50px;
+}
+.footer-tittle{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer_caption{
+    color:white;
+    text-align: center;
+}
+.footer_caption_{
+    color: #FFFFFF66;
+    text-align: center;
 }
